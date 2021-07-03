@@ -1,15 +1,15 @@
 name: flutter_string_encryption
 description: Cross-platform string encryption using common best-practices.
-version: 0.3.1
-author: Stefano Rodriguez <hlsroddy@gmail.com>
-homepage: https://github.com/sroddy/flutter_string_encryption
+version: 0.3.2
+author: Alexander Golovnya <alex@allsports.by>
+homepage: https://github.com/allsportsby/flutter_string_encryption
 
 dependencies:
   flutter:
     sdk: flutter
 
 environment:
-  sdk: '>=1.24.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 # For information on the generic Dart part of this file, see the
 # following page: https://www.dartlang.org/tools/pub/pubspec
@@ -17,5 +17,7 @@ environment:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    androidPackage: com.github.sroddy.flutterstringencryption
-    pluginClass: FlutterStringEncryptionPlugin
+    platforms:
+      android:
+        package: com.github.sroddy.flutterstringencryption
+        pluginClass: FlutterStringEncryptionPlugin
