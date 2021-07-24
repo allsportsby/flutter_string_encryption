@@ -21,3 +21,5 @@ flutter:
       android:
         package: com.github.sroddy.flutterstringencryption
         pluginClass: FlutterStringEncryptionPlugin
+      ios:
+        pluginClass: FlutterStringEncryptionPlugin
